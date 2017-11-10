@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(17,17,17);
+}
+.brand img{
+  width: 125px;
+  margin-left: 15px;
+}
+.container-fluid{
+  min-width: 400px;
+}
+nav{
+  background-color: rgb(35,35,35);
+}
+.search {
+  margin-top: 15px;
+}
+.search span{
+  color: white;
+  font-size: 17px;
+}
+.idioma{
+  float: right;
+  margin-top: -35px;
+}
+@media only screen and (max-width: 480px) {
+  .brand {
+    display: none;
+  }
+}
