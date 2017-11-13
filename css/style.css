@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-body {
+body, html{
   background-color: rgb(17,17,17);
 }
 .brand img{
@@ -14,6 +14,9 @@ body {
 nav{
   background-color: rgb(35,35,35);
 }
+.lateral hr{
+      border-top: 1px solid rgb(46,46,46);
+}
 .search {
   margin-top: 15px;
 }
@@ -25,8 +28,32 @@ nav{
   float: right;
   margin-top: -35px;
 }
+.glyphicon{
+  color: red;
+  font-size: 18px;
+}
+.lateral{
+  color: white;
+  position: fixed;
+  width: 260px;
+  height: 100%;
+  background-color: rgb(28,28,28);
+  margin-top: -20px;
+}
+.lateral ul {
+  list-style-type: none;
+}
+.lateral a{
+  text-decoration: none;
+  color: white;
+}
 @media only screen and (max-width: 480px) {
   .brand {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .lateral {
     display: none;
   }
 }

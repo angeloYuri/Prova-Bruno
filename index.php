@@ -29,6 +29,31 @@
         </nav>
       </div>
 
+      <div class="row">
+        <div class="sidebar lateral">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> &emsp; Início <span class="sr-only">(current)</span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> &emsp;Em alta</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> &emsp;Histórico</a></li>
+          </ul><hr>
+          <ul class="nav nav-sidebar">
+            <center><h4 style="color:gray;">Categorias</h4></center>
+            <li><a href=""><span class="glyphicon glyphicon-music" aria-hidden="true"></span> &emsp;Música</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-knight" aria-hidden="true"></span> &emsp;Jogos</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> &emsp;Notícias</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-film" aria-hidden="true"></span> &emsp;Filmes</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> &emsp;Esportes</a></li>
+          </ul><hr>
+          <ul class="nav nav-sidebar">
+            <li><a href=""><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> &emsp;Procurar Canais</a></li>
+          </ul><hr>
+          <ul class="nav nav-sidebar">
+            Faça login agora para ver seus canais e recomendações!
+            <li> <a href="#"><h4>FAZER LOGIN</h4></a> </li>
+          </ul>
+        </div>
+      </div>
+
   	</div>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/javas.js"></script>
