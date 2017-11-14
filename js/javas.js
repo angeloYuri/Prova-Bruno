@@ -1,6 +1,18 @@
-// Verifica se o documento foi carregado
 $(document).ready(function(){
-	// rgb(17,17,17);
-	// rgb(35,35,35);
-	// rgb(28,28,28);
+	$("#music").click(function(){
+    ajax('.conteudo', 'conteudo.php?cat=musica')
+   });
+   $("#jogos").click(function(){
+      ajax('.conteudo', 'conteudo.php?cat=jogos')
+     });
 });
+
+
+function ajax(retorno, urll) {
+  $.ajax({
+    url : urll,
+    success : function(result) {
+      $(retorno).html(result);
+    }
+   });
+}
