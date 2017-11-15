@@ -1,10 +1,10 @@
 $(document).ready(function(){
-	$("#music").click(function(){
-    ajax('.conteudo', 'conteudo.php?cat=musica')
-   });
    $("#jogos").click(function(){
       ajax('.conteudo', 'conteudo.php?cat=jogos')
-     });
+   });
+	 $("#teste").click(function(){
+			ajax('.conteudo', 'conteudo.php?cat=teste')
+	 });
 });
 
 

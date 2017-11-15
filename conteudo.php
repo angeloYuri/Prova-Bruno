@@ -1,16 +1,18 @@
 <?php
-  require_once 'conf.php';
+  require_once 'require.php';
   if ($_GET['cat'] == 'musica') {
     //echo "musica";
   }elseif ($_GET['cat'] == 'jogos') {
     //echo "jogos";
   }
+  $cat = $_GET['cat'];
 
 
   echo '<div class="row">';
-  for($i = 0; $i < 10; $i++){
-    echo '<div class="col-xs-4">';
-    echo '<a href="' . $url . '/video.php"><h2>teste</h2></a>';
+  for($i = 0; $i < 9; $i++){
+    echo '<div class="col-xs-12 col-sm-6 col-md-4 link">';
+    echo '<a href="' . $url . '/video.php"><img src="'. $imgs[$cat][$i] .'" alt="gordo">';
+    echo '<b><h5>'. $lang[$cat][$i] .'</h5></b></a>';
     echo '</div>';
   }
   echo '</div>';

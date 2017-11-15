@@ -5,12 +5,7 @@
   </head>
   <body>
     <?php
-      require_once 'conf.php';
-      if (isset ($_GET['lang']) == 'en') {
-        require_once 'en.php';
-      }else {
-        require_once 'br.php';
-      }
+      require_once 'require.php';
      ?>
   	<div class="container-fluid">
       <?php require_once 'menu.php'; ?>
@@ -19,7 +14,7 @@
         <div class="lateral sidebar col-xs-2">
           <?php require_once 'lateral.php'; ?>
         </div>
-        <div class="col-xs-9">
+        <div class="col-xs-9 cont">
           <div class="conteudo">
           </div>
         </div>
