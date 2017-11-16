@@ -2,8 +2,8 @@ $(document).ready(function(){
    $("#jogos").click(function(){
       ajax('.conteudo', 'conteudo.php?cat=jogos')
    });
-	 $("#teste").click(function(){
-			ajax('.conteudo', 'conteudo.php?cat=teste')
+	 $("#musica").click(function(){
+			ajax('.conteudo', 'conteudo.php?cat=musica')
 	 });
 });
 

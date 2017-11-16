@@ -1,10 +1,5 @@
 <?php
   require_once 'require.php';
-  if ($_GET['cat'] == 'musica') {
-    //echo "musica";
-  }elseif ($_GET['cat'] == 'jogos') {
-    //echo "jogos";
-  }
   $cat = $_GET['cat'];
 
 

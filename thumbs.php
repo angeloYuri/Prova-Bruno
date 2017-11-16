@@ -12,16 +12,16 @@
       'img/thumb/jogos/img8.jpg',
       'img/thumb/jogos/img9.jpg'
     ],
-    'teste' => [
-      $teste,
-      $teste,
-      $teste,
-      $teste,
-      $teste,
-      $teste,
-      $teste,
-      $teste,
-      $teste
+    'musica' => [
+      'img/thumb/musica/img1.jpg',
+      'img/thumb/musica/img2.jpg',
+      'img/thumb/musica/img3.jpg',
+      'img/thumb/musica/img4.jpg',
+      'img/thumb/musica/img5.jpg',
+      'img/thumb/musica/img6.jpg',
+      'img/thumb/musica/img7.jpg',
+      'img/thumb/musica/img8.jpg',
+      'img/thumb/musica/img9.jpg'
     ]
   ]
  ?>

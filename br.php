@@ -19,7 +19,7 @@
       'FAZER LOGIN'
     ],
     'jogos' => [
-      'EM BUSCA DAS 30 KILLS #03 - O RECORDE ESTÁ PRÓXIMO',
+      'EM BUSCA DAS 30 KILLS #03 - O </br>RECORDE ESTÁ PRÓXIMO',
       'DESAFIO: SEM RIFLE E SEM SNIPER | BATTLEGROUNDS',
       'SNIPER BRASILEIRO | </br> BATTLEGROUNDS ',
       'É O DEG DO DEREGUE ft. Pato Papão | BATTLEGROUNDS',
@@ -28,6 +28,17 @@
       'O QUE É PILAR? ft. SkipNhO e Hastad | BATTLEGROUNDS',
       'EM BUSCA DAS 30 KILLS #02 | AWM É MUITO QUEBRADA | PUBG',
       'RESPEITA MINHA HISTÓRIA | BATTLEGROUNDS'
+    ],
+    'musica' => [
+      'Blackbear - idfc',
+      'XXXTENTACION - Jocelyn Flores',
+      'lil happy lil sad - falling stars',
+      'Konai x Duzz - $ompratrans$a',
+      'lil happy lil sad - lil numb',
+      'lil happy lil sad - my revenge',
+      'Sarah Blasko - All i want',
+      'I\'m a mess, I\'m sorry',
+      'lil happy lil sad - find myself'
     ],
     'teste' => [
       '1',
