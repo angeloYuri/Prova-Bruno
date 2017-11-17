@@ -40,16 +40,38 @@
       'I\'m a mess, I\'m sorry',
       'lil happy lil sad - find myself'
     ],
-    'teste' => [
-      '1',
-      '2',
-      '3',
-      '4',
-      '5',
-      '6',
-      '7',
-      '8',
-      '9'
+    'noticias' => [
+      'Dois minutos pelo mundo',
+      'A tensa batalha de carcereiro',
+      'O vilarejo transferido morro acima',
+      'Dois minutos pelo mundo',
+      'O Acordo secreto que garantiu fuga',
+      'Onda monstruosa quebra as costas de surfista',
+      'Dois minutos pelo mundo',
+      'O peixe que se \'adaptou\' à poluição',
+      'Dois minutos pelo mundo'
+    ],
+    'esportes' => [
+      'Fabricio Werdum x Marcin Tybura',
+      'Análise da Categoria peso-pesado',
+      'As novidades de Anderson Silva',
+      'Bia mesquita no Revista Combate',
+      'Carlão Barreto x Rafael Carino',
+      'José aldo fala sobre desafio',
+      'Repercussão das declarações',
+      '"Não podemos queimar etapas com Borrachinha"',
+      'José aldo desafia Max Halloway',
+    ],
+    'filmes' => [
+      'Pantera Negra - Trailer',
+      'Thor:Ragnarok - Trailer',
+      'JUSTICE LEAGUE - Official Trailer',
+      'JUSTICE LEAGUE Final Trailer',
+      'The greatest Showman - Trailer',
+      'Brothers Anthem - Akshay Kumar',
+      'Padmavati : Ghoomar Song',
+      'THOR RAGNAROK Final Trailer',
+      'Star Wars:The Last Jedi Trailer',
     ]
   ]
  ?>

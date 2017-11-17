@@ -5,6 +5,15 @@ $(document).ready(function(){
 	 $("#musica").click(function(){
 			ajax('.conteudo', 'conteudo.php?cat=musica')
 	 });
+   $("#noticias").click(function(){
+      ajax('.conteudo', 'conteudo.php?cat=noticias')
+   });
+   $("#filmes").click(function(){
+      ajax('.conteudo', 'conteudo.php?cat=filmes')
+   });
+   $("#esportes").click(function(){
+      ajax('.conteudo', 'conteudo.php?cat=esportes')
+   });
 });
 
 
