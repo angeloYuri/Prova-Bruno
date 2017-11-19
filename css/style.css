@@ -14,6 +14,9 @@ body, html{
 nav{
   background-color: rgb(35,35,35);
 }
+.videocont{
+  margin-top: 100px;
+}
 .lateral hr{
       border-top: 1px solid rgb(46,46,46);
 }
