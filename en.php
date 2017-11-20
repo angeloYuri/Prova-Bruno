@@ -10,7 +10,8 @@
       'noticias' => 'News',
       'filmes' => 'Movies',
       'esportes' => 'Sports',
-      'cat' => 'Categories'
+      'cat' => 'Categories',
+      'rel' => 'Related videos'
     ],
     'pesquisar' => 'Search',
     'procurar' => 'Browse channels',

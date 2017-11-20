@@ -10,7 +10,8 @@
       'noticias' => 'Notícias',
       'filmes' => 'Filmes',
       'esportes' => 'Esportes',
-      'cat' => 'Categorias'
+      'cat' => 'Categorias',
+      'rel' => 'Vídeos relacionados'
     ],
     'pesquisar' => 'Pesquisar',
     'procurar' => 'Procurar canais',

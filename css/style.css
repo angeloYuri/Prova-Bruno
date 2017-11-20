@@ -52,7 +52,10 @@ nav{
 .lateral ul {
   list-style-type: none;
 }
-.lateral a, .link a{
+.lateral a:focus, .lateral a:hover {
+  color: black;
+}
+.lateral a, .link a, .relac a{
   text-decoration: none;
   color: white;
 }

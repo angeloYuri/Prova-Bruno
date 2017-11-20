@@ -1,10 +1,5 @@
 <?php
-  require_once 'conf.php';
-  if (isset($_GET['lang']) == 'en') {
-    require_once 'en.php';
-  }else {
-    require_once 'br.php';
-  }
+  require_once 'require.php';
   $cat = $_GET['cat'];
   $vid = $_GET['vid'];
  ?>
@@ -13,17 +8,19 @@
   <h2 style="color:white"><?=$lang[$cat][$vid]?></h2>
 </div>
 <div class="col-xs-12 col-sm-3 col-md-2">
+
   <?php
-  echo '<div class="row">';
-  echo '<b style="color:white">Vídeos Relacionados</b>';
+  echo '<div class="row relac">';
+  echo '<b style="color:white">'.$lang['cat']['rel'].'</b>';
   for($i = 0; $i < 9; $i++){
     if ($vid != $i) {
       echo '<div class="col-xs-12">';
-      echo '<a href="' . $url . '/video.php?cat='.$cat.'&vid='.$i.'"><img src="'. $imgs[$cat][$i] .'">';
+      echo '<a href="' . $url . '/video.php?cat='.$cat.'&vid='.$i.'&lang='.$_GET['lang'].'"><img src="'. $imgs[$cat][$i] .'">';
       echo '<b><h5>'. $lang[$cat][$i] .'</h5></b></a>';
       echo '</div>';
     }
   }
   echo '</div>';
    ?>
+
 </div>

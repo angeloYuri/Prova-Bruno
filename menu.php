@@ -1,7 +1,7 @@
 <div class="row menu">
   <nav class="navbar navbar-expand-lg">
     <div class="brand col-xs-4 col-sm-4 col-md-2">
-      <a href="<?=$url?>/index.php?lang=pt"><img src="img/ytlogo.png" alt="Logo"></a>
+      <a href="<?=$url?>/index.php?lang=<?=$_GET['lang']?>"><img src="img/ytlogo.png" alt="Logo"></a>
     </div>
     <div class="input-group col-xs-5 col-sm-6 col-md-8 search">
       <input type="text" class="form-control" placeholder="<?=$lang['pesquisar']?>" aria-label="..." style="background-color: rgb(17,17,17)">
