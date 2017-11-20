@@ -8,9 +8,6 @@ body, html{
   width: 125px;
   margin-left: 15px;
 }
-.container-fluid{
-  min-width: 400px;
-}
 nav{
   background-color: rgb(35,35,35);
 }
@@ -62,6 +59,9 @@ nav{
 @media only screen and (max-width: 480px) {
   .brand {
     display: none;
+  }
+  .idioma{
+    width: 150px;
   }
 }
 @media only screen and (max-width: 1280px) {

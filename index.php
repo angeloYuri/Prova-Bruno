@@ -4,6 +4,8 @@
     <?php require_once 'scripts.php'; ?>
   </head>
   <body>
+    <?php $teste = $_GET['lang']; ?>
+    <span class="inp" style="display:none"><?=$teste?></span>
     <?php
       require_once 'require.php';
      ?>
