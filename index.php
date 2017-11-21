@@ -13,10 +13,10 @@
       <?php require_once 'menu.php'; ?>
 
       <div class="row">
-        <div class="lateral sidebar col-xs-2">
+        <div class="lateral sidebar">
           <?php require_once 'lateral.php'; ?>
         </div>
-        <div class="col-xs-9 cont">
+        <div class="col-xs-12 col-sm-12 col-md-12 cont">
           <div class="conteudo">
           </div>
         </div>

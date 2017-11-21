@@ -14,8 +14,8 @@ nav{
 .videocont{
   margin-top: 100px;
 }
-.lateral hr{
-      border-top: 1px solid rgb(46,46,46);
+hr{
+  border-top: 1px solid rgb(46,46,46);
 }
 .search {
   margin-top: 15px;
@@ -35,6 +35,7 @@ nav{
 .cont{
   margin-left: 260px;
   margin-top: 100px;
+  width: 80%;
 }
 .lateral{
   color: white;
@@ -55,6 +56,9 @@ nav{
 .lateral a:focus, .lateral a:hover {
   color: black;
 }
+.link{
+  height: 213px;
+}
 .lateral a, .link a, .relac a{
   text-decoration: none;
   color: white;
@@ -66,12 +70,31 @@ nav{
   .idioma{
     width: 150px;
   }
+  iframe{
+    width: 426px;
+    height: 240px;
+  }
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width:481px) and (max-width:1200px) {
+  iframe{
+    width: 640px;
+    height: 360px;
+  }
+}
+@media only screen and (max-width:991px){
+  .relvid{
+    text-align: center;
+  }
+  .relac b{
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 1297px) {
   .lateral {
     display: none;
   }
   .cont{
     margin-left: 0px;
+    width: 100%;
   }
 }
