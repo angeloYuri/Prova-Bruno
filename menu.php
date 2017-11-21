@@ -10,8 +10,20 @@
       </div>
     </div>
     <div class="idioma col-xs-3 col-sm-2 col-md-2">
-      <a href=" <?=$url?>/index.php?lang=pt"> <img src="img/flagbr.png"> </a>
-      <a href=" <?=$url?>/index.php?lang=en"> <img src="img/flagen.png"> </a>
+      <a href=" <?php videoget('pt',$url) ?> ">
+      <img src="img/flagbr.png"> </a>
+      <a href=" <?php videoget('en',$url) ?> "> <img src="img/flagen.png"> </a>
     </div>
+    <?php
+      function videoget($ling, $url){
+        if ($_SERVER['PHP_SELF'] == '/youtube/video.php') {
+          $cat = $_GET['cat'];
+          $vid = $_GET['vid'];
+          echo $url . '/video.php?cat='.$cat.'&vid='.$vid.'&lang=' . $ling;
+        }else{
+          echo $url . '/index.php?lang=' . $ling;
+        }
+      }
+     ?>
   </nav>
 </div>
