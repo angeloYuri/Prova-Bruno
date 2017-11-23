@@ -14,6 +14,8 @@
 
   <?php
   echo '<div class="row relac">';
+  echo '<center><button type="button" id="showR" class="btn btn-danger">'.$lang['cat']['mostrar'].'</button></center>';
+  echo '<div class="showRelated">';
   echo '<center><b style="color:white">'.$lang['cat']['rel'].'</b></center>';
   for($i = 0; $i < 9; $i++){
     if ($vid != $i) {
@@ -23,7 +25,7 @@
       echo '</div>';
     }
   }
-  echo '</div>';
+  echo '</div></div>';
    ?>
 
 </div>

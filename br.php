@@ -11,7 +11,8 @@
       'filmes' => 'Filmes',
       'esportes' => 'Esportes',
       'cat' => 'Categorias',
-      'rel' => 'Vídeos relacionados'
+      'rel' => 'Vídeos relacionados',
+      'mostrar' => 'Mostrar vídeos relacionados'
     ],
     'pesquisar' => 'Pesquisar',
     'procurar' => 'Procurar canais',

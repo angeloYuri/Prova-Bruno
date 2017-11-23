@@ -11,7 +11,8 @@
       'filmes' => 'Movies',
       'esportes' => 'Sports',
       'cat' => 'Categories',
-      'rel' => 'Related videos'
+      'rel' => 'Related videos',
+      'mostrar' => 'Show related videos'
     ],
     'pesquisar' => 'Search',
     'procurar' => 'Browse channels',

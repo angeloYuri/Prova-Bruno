@@ -1,10 +1,14 @@
 $(document).ready(function(){
+   $('#showR').click(function(){
+     $('.showRelated').show();
+     $('#showR').hide();
+   });
    $("#jogos").click(function(){
       ajax('.conteudo', 'conteudo.php?cat=jogos&lang=')
    });
-	 $("#musica").click(function(){
-			ajax('.conteudo', 'conteudo.php?cat=musica&lang=')
-	 });
+   $("#musica").click(function(){
+  		ajax('.conteudo', 'conteudo.php?cat=musica&lang=')
+   });
    $("#noticias").click(function(){
       ajax('.conteudo', 'conteudo.php?cat=noticias&lang=')
    });
