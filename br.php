@@ -74,6 +74,10 @@
       'Padmavati : Ghoomar Song',
       'THOR RAGNAROK Final Trailer',
       'Star Wars:The Last Jedi Trailer',
-    ]
+    ],
+    'descricao' => 'Este vídeo é meramente feito por fãs, e eu não estou fazendo nenhum lucro com o mesmo.
+É puramente para fins de entretenimento e não é, de forma alguma, com a intenção de ofender.
+Eu não tenho os clipes ou as músicas que usei, eles pertencem aos seus legítimos
+proprietários/empresas. Absolutamente nenhuma violação de direitos autorais é intencionada.'
   ]
  ?>

@@ -1,4 +1,8 @@
 $(document).ready(function(){
+   $('#showD').click(function(){
+     $('.descricao').show();
+     $('#showD').hide();
+   });
    $('#showR').click(function(){
      $('.showRelated').show();
      $('#showR').hide();

@@ -9,6 +9,21 @@
   <hr>
   <h3 style="color:white"><?=$lang[$cat][$vid]?></h3>
   <hr>
+
+  <div class="desc">
+  <h3 style="color:white">Descrição</h3>
+  <button type="button" id="showD" class="btn btn-danger">Mostrar</button>
+
+  <div class="descricao col-xs-12">
+    <div class="col-xs-12 col-sm-9"><?=$lang['descricao']?></div>
+    <div class="col-xs-12 col-sm-3">
+      <br><center><button type="button" class="btn btn-danger" id="showComm">Mostrar comentários</button></center>
+    </div>
+  </div>
+
+  &nbsp;<hr>
+
+  </div>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-3">
 
