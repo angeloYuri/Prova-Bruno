@@ -1,4 +1,4 @@
-﻿<?php
+<?php
   require_once 'thumbs.php';
   $lang = [
     'inicio' => 'Home',
