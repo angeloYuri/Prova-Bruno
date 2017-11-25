@@ -14,6 +14,7 @@
       'rel' => 'Related videos',
       'mostrar' => 'Show related videos'
     ],
+    'welcome' => 'Welcome to',
     'descri' => 'Description',
     'mostrarD' => 'Show description',
     'mostrarC' => 'Show comments',

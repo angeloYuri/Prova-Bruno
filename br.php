@@ -14,6 +14,7 @@
       'rel' => 'Vídeos relacionados',
       'mostrar' => 'Mostrar vídeos relacionados'
     ],
+    'welcome' => 'Bem vindo ao',
     'descri' => 'Descrição',
     'mostrarD' => 'Mostrar descrição',
     'mostrarC' => 'Mostrar comentários',

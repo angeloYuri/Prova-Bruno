@@ -17,7 +17,7 @@
     <button type="button" id="showD" class="btn btn-danger"><?=$lang['mostrarD']?></button>
 
     <div class="descricao col-xs-12">
-      <div class="col-xs-12 col-sm-9"><?=$lang['descricao']?></div>
+      <div class="col-xs-12 col-sm-9"><span style="color:gray"><?=$lang['descricao']?></span></div>
       <div class="col-xs-12 col-sm-3">
         <br><center><button type="button" class="btn btn-danger" id="showComm"><?=$lang['mostrarC']?></button></center>
       </div>

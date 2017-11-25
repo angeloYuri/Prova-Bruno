@@ -18,6 +18,9 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 cont">
           <div class="conteudo">
+            <div style="height:150px"></div>
+            <center><span style="color:white;font-size:40px"><b><?=$lang['welcome']?></b></span>
+            <img src="img/ytlogo.png" class="img-responsive" style="width:500px"> </center>
           </div>
         </div>
       </div>
