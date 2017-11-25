@@ -7,6 +7,10 @@ $(document).ready(function(){
      $('.showRelated').show();
      $('#showR').hide();
    });
+   $('#showComm').click(function(){
+     $('.comment-div').show();
+     $('#showComm').hide();
+   });
    $("#jogos").click(function(){
       ajax('.conteudo', 'conteudo.php?cat=jogos&lang=')
    });

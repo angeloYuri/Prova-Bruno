@@ -5,25 +5,31 @@
  ?>
 
 <div class="col-xs-12 col-sm-12 col-md-9">
-  <iframe width="854" height="480" src="<?=$links[$cat][$vid]?>" frameborder="0" gesture="media" allowfullscreen></iframe>
-  <hr>
-  <h3 style="color:white"><?=$lang[$cat][$vid]?></h3>
-  <hr>
+  <div class="row">
+    <iframe width="854" height="480" src="<?=$links[$cat][$vid]?>" frameborder="0" gesture="media" allowfullscreen></iframe>
+    <hr>
+    <h3 style="color:white"><?=$lang[$cat][$vid]?></h3>
+    <hr>
+  </div>
 
-  <div class="desc">
-  <h3 style="color:white">Descrição</h3>
-  <button type="button" id="showD" class="btn btn-danger">Mostrar</button>
+  <div class="desc row">
+    <h3 style="color:white"><?=$lang['descri']?></h3>
+    <button type="button" id="showD" class="btn btn-danger"><?=$lang['mostrarD']?></button>
 
-  <div class="descricao col-xs-12">
-    <div class="col-xs-12 col-sm-9"><?=$lang['descricao']?></div>
-    <div class="col-xs-12 col-sm-3">
-      <br><center><button type="button" class="btn btn-danger" id="showComm">Mostrar comentários</button></center>
+    <div class="descricao col-xs-12">
+      <div class="col-xs-12 col-sm-9"><?=$lang['descricao']?></div>
+      <div class="col-xs-12 col-sm-3">
+        <br><center><button type="button" class="btn btn-danger" id="showComm"><?=$lang['mostrarC']?></button></center>
+      </div>
     </div>
+    &nbsp;<hr>
   </div>
 
-  &nbsp;<hr>
-
-  </div>
+    <?php
+    echo '<div class="comment-div row">';
+    echo '<h3 style="color:white">'.$lang['comentarios']['comm'].'</h3></br>';
+    echo '&nbsp;<hr></div>';
+     ?>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-3">
 

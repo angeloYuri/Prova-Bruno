@@ -14,6 +14,9 @@
       'rel' => 'Related videos',
       'mostrar' => 'Show related videos'
     ],
+    'descri' => 'Description',
+    'mostrarD' => 'Show description',
+    'mostrarC' => 'Show comments',
     'pesquisar' => 'Search',
     'procurar' => 'Browse channels',
     'login' => [
@@ -75,9 +78,9 @@
       'THOR RAGNAROK Final Trailer',
       'Star Wars:The Last Jedi Trailer',
     ],
-    'descricao' => 'This video is purely fan made, and I am not making any profit.
-      It is purely for entertainment purposes and in no way meant to offend.
-      I do not own the clips or the songs I used, they belong to their rightful
-      owners/companies. No Copyright Infringement is intended at all.'
+    'descricao' => 'This video is purely fan made, and I am not making any profit. It is purely for entertainment purposes and in no way meant to offend. I do not own the clips or the songs I used, they belong to their rightful owners/companies. No Copyright Infringement is intended at all.',
+    'comentarios' => [
+      'comm' => 'Comments'
+    ]
   ]
  ?>

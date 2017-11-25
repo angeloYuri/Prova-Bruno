@@ -14,6 +14,9 @@
       'rel' => 'Vídeos relacionados',
       'mostrar' => 'Mostrar vídeos relacionados'
     ],
+    'descri' => 'Descrição',
+    'mostrarD' => 'Mostrar descrição',
+    'mostrarC' => 'Mostrar comentários',
     'pesquisar' => 'Pesquisar',
     'procurar' => 'Procurar canais',
     'login' => [
@@ -78,6 +81,9 @@
     'descricao' => 'Este vídeo é meramente feito por fãs, e eu não estou fazendo nenhum lucro com o mesmo.
 É puramente para fins de entretenimento e não é, de forma alguma, com a intenção de ofender.
 Eu não tenho os clipes ou as músicas que usei, eles pertencem aos seus legítimos
-proprietários/empresas. Absolutamente nenhuma violação de direitos autorais é intencionada.'
+proprietários/empresas. Absolutamente nenhuma violação de direitos autorais é intencionada.',
+    'comentarios' => [
+      'comm' => 'Comentários'
+    ]
   ]
  ?>

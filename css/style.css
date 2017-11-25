@@ -14,7 +14,7 @@ nav{
 .videocont{
   margin-top: 100px;
 }
-.descricao, .showRelated{
+.descricao, .showRelated, .comment-div{
   display: none;
 }
 hr{
@@ -77,6 +77,11 @@ hr{
     width: 426px;
     height: 240px;
   }
+}
+.nav-sidebar i{
+  width: 30px;
+  color: rgb(195,44,35);
+  font-size: 25px;
 }
 @media only screen and (min-width:481px) and (max-width:1200px) {
   iframe{
