@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   require_once 'thumbs.php';
   $lang = [
     'inicio' => 'Home',
@@ -101,7 +101,7 @@
       ],
       'comments' => [
         'Awesome video, when will the next one come ?',
-        'I love it this video !',
+        'I love this video !',
         'Great content on the channel.',
         'Bring more videos like this !',
         'I didn\'t like the video',
@@ -109,7 +109,7 @@
         'Terrible video, i\'m unfollowing you !',
         'More videos like this one, please !',
         '1:27 The best part LOL',
-        'The content is offensive for me !'
+        'The content is offensive to me !'
       ]
     ]
   ]
