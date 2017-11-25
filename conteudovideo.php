@@ -26,27 +26,39 @@
   </div>
 
     <?php
-    echo '<div class="comment-div row">';
-    echo '<h3 style="color:white">'.$lang['comentarios']['comm'].'</h3></br>';
-    echo '&nbsp;<hr></div>';
+    echo '<div class="comment-div row">
+            <h3 style="color:white">'.$lang['comentarios']['comm'].'</h3></br>';
+    $r = rand(3,10);
+    for ($i=0; $i <= $r; $i++) {
+      $rName = rand(0,15);
+      $rComm = rand(0,8);
+      echo '<div class="col-xs-12">
+             <i class="fa fa-user-circle-o fa-3x" aria-hidden="true" style="color:white"></i>
+             <span style="color:white">'.$lang['comentarios']['nomes'][$rName].'</span><br><br>
+             <span style="color:gray">'.$lang['comentarios']['comments'][$rComm].'</span>
+             <hr>
+           </div>';
+    }
+    echo '</div>';
      ?>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-3">
 
   <?php
-  echo '<div class="row relac">';
-  echo '<center><button type="button" id="showR" class="btn btn-danger">'.$lang['cat']['mostrar'].'</button></center>';
-  echo '<div class="showRelated">';
-  echo '<center><b style="color:white">'.$lang['cat']['rel'].'</b></center>';
+  echo '<div class="row relac">
+          <center><button type="button" id="showR" class="btn btn-danger">'.$lang['cat']['mostrar'].'</button></center>
+          <div class="showRelated">
+            <center><b style="color:white">'.$lang['cat']['rel'].'</b></center>';
   for($i = 0; $i < 9; $i++){
     if ($vid != $i) {
-      echo '<div class="col-xs-12 relvid">';
-      echo '<a href="' . $url . '/video.php?cat='.$cat.'&vid='.$i.'&lang='.$_GET['lang'].'"><img src="'. $imgs[$cat][$i] .'">';
-      echo '<b><h5>'. $lang[$cat][$i] .'</h5></b></a>';
-      echo '</div>';
+      echo '<div class="col-xs-12 relvid">
+              <a href="' . $url . '/video.php?cat='.$cat.'&vid='.$i.'&lang='.$_GET['lang'].'"><img src="'. $imgs[$cat][$i] .'">
+              <b><h5>'. $lang[$cat][$i] .'</h5></b></a>
+            </div>';
     }
   }
-  echo '</div></div>';
+  echo '  </div>
+        </div>';
    ?>
 
 </div>

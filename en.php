@@ -80,7 +80,37 @@
     ],
     'descricao' => 'This video is purely fan made, and I am not making any profit. It is purely for entertainment purposes and in no way meant to offend. I do not own the clips or the songs I used, they belong to their rightful owners/companies. No Copyright Infringement is intended at all.',
     'comentarios' => [
-      'comm' => 'Comments'
+      'comm' => 'Comments',
+      'nomes' => [
+        'João',
+        'Daniel',
+        'Vitor',
+        'Eduardo',
+        'Bruno',
+        'Caio',
+        'Lucas',
+        'Pedro',
+        'Ana',
+        'Sarah',
+        'Maria',
+        'Amanda',
+        'Julia',
+        'Alice',
+        'Luiza',
+        'Nicole'
+      ],
+      'comments' => [
+        'Awesome video, when will the next one come ?',
+        'I love it this video !',
+        'Great content on the channel.',
+        'Bring more videos like this !',
+        'I didn\'t like the video',
+        'I hated the content.',
+        'Terrible video, i\'m unfollowing you !',
+        'More videos like this one, please !',
+        '1:27 The best part LOL',
+        'The content is offensive for me !'
+      ]
     ]
   ]
  ?>

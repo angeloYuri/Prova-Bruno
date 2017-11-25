@@ -83,7 +83,37 @@
 Eu não tenho os clipes ou as músicas que usei, eles pertencem aos seus legítimos
 proprietários/empresas. Absolutamente nenhuma violação de direitos autorais é intencionada.',
     'comentarios' => [
-      'comm' => 'Comentários'
+      'comm' => 'Comentários',
+      'nomes' => [
+        'João',
+        'Daniel',
+        'Vitor',
+        'Eduardo',
+        'Bruno',
+        'Caio',
+        'Lucas',
+        'Pedro',
+        'Ana',
+        'Sarah',
+        'Maria',
+        'Amanda',
+        'Julia',
+        'Alice',
+        'Luiza',
+        'Nicole'
+      ],
+      'comments' => [
+        'Vídeo incrível, quando sairá o proximo ?',
+        'Adorei o vídeo !',
+        'Ótimo conteúdo no canal.',
+        'Traga mais vídeos desse tipo !',
+        'Não gostei do vídeo.',
+        'Odiei o conteúdo.',
+        'Vídeo péssimo, estou me desiscrevendo do canal !',
+        'Mais vídeos assim no canal, por favor !',
+        '1:27 Melhor parte do video kkkkk',
+        'Achei ofensivo o conteúdo !'
+      ]
     ]
   ]
  ?>
