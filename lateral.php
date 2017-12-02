@@ -1,5 +1,5 @@
 <ul class="nav nav-sidebar">
-  <li><a href="<?=$url?>/index.php?lang=<?=$_GET['lang']?>"><i class="fa fa-home" aria-hidden="true"></i> &emsp; <b><?=$lang['inicio']?></b></a></li>
+  <li><a href="<?=$url?>/index.php?lang=<?=$lingua?>"><i class="fa fa-home" aria-hidden="true"></i> &emsp; <b><?=$lang['inicio']?></b></a></li>
   <li><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i> &emsp; <b><?=$lang['alta']?></b></a></li>
   <li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> &emsp; <b><?=$lang['historico']?></b></a></li>
 </ul><hr>
